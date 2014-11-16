@@ -23,8 +23,8 @@ public class HelloServiceTest
 
 	@Test
     public void testSayHello() {
-		String name = "Siva";
+		String name = "rsm";
 		String hello = helloService.sayHello(name);
-		Assert.assertEquals("Hello Siva", hello);
+		Assert.assertEquals("Hello rsm", hello);
 	}
 }
